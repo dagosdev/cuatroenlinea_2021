@@ -30,5 +30,5 @@ def dibujarTablero(tablero):
         print('')
 
 
-secuencia = [1, 2, 3, 1]
+secuencia = [1, 2, 3, 1, 3, 4]
 dibujarTablero(completarTableroEnOrden(secuencia, tableroVacio()))
