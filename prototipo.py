@@ -30,5 +30,18 @@ def dibujarTablero(tablero):
         print('')
 
 
-secuencia = [1, 2, 3, 1, 3, 4]
-dibujarTablero(completarTableroEnOrden(secuencia, tableroVacio()))
+
+def secuenciaValida(secuencia):
+    for columna in secuencia:
+        if columna < 1 or columna > 7:
+            return False
+    return True
+
+secuencia = [1, 2, 3, 1, 3, 4, 8]
+
+if secuenciaValida(secuencia):
+    dibujarTablero(completarTableroEnOrden(secuencia, tableroVacio()))
+else:
+    print("Las columnas deberian ir de 1 al 7")
+
+
