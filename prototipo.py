@@ -8,6 +8,14 @@ def tableroVacio():
             [0, 0, 0, 0, 0, 0, 0],
             ]
 
+def contenidoColumna(nro_columna, tablero):
+    columna = []
+    for fila in tablero:
+        celda = fila[nro_columna - 1]
+        columna.append(celda)
+    return columna
+
+
 def completarTableroEnOrden(secuencia, tablero):
     for indice, columna in enumerate(secuencia):
         fichaNumero = 1 + (indice % 2)
