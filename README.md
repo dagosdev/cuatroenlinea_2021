@@ -2,4 +2,4 @@
 
 Proyecto de cuatro en linea para AAT 2021.
 
-Creado en colaboracion con estudiantes de la escuela.
+Creado en colaboracion con estudiantes de la Escuela.
